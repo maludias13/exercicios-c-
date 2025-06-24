@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int media (int n)
+{
+    int i;
+    float num, m=0;
+    for(int i=0; i<n ; i++){
+        cin>>num;
+        m= m + num;
+    }
+    m= m/n;
+    cout<<"media: "<<m;
+    return m;
+}
+
+
+int main(){
+    int n, m;
+    cin>>n;
+    media(n);
+    
+    
+    return 0;
+}
